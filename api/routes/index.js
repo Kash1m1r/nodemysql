@@ -4,6 +4,9 @@ const pessoas = require('./pessoasRoute')
 const niveis = require('./niveisRoute')
 const turmas = require('./turmasRoute')
 
+router
+  .get('/', )
+
 module.exports = app => {
   app.use(
     bodyParser.json(),
